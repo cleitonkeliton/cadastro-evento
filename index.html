@@ -1,0 +1,104 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>XI Encontro de Jovens com Cristo</h1>
+      <h2>Ficha de Inscrição</h2>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScEvbbBKvmU2qlPaaK49jn5uieOc3BptiG2McTprsQCgVgc-A/formResponse" method="POST" target="_self">
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="entry.1234567890" placeholder="Digite seu nome" required>
+
+        <!-- Nome dos Pais ou Responsáveis -->
+        <label for="nomePais">Nome dos Pais ou Responsáveis:</label>
+        <input type="text" id="nomePais" name="entry.2233445566" placeholder="Digite o nome dos pais ou responsáveis" required>
+
+        <!-- Telefone dos Pais ou Responsáveis -->
+        <label for="telefonePais1">Telefone dos Pais ou Responsáveis:</label>
+        <input type="tel" id="telefonePais1" name="entry.5566778899" placeholder="(99) 99999-9999" required>
+        
+        <!-- Endereço -->
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="entry.7788990011" placeholder="Rua e número" required>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="entry.8899001122" placeholder="Digite o bairro" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="entry.9900112233" placeholder="Digite a cidade" required>
+
+        <label for="referencia">Ponto de Referência:</label>
+        <input type="text" id="referencia" name="entry.1011122334" placeholder="Ponto de referência" required>
+
+        <!-- Sacramentos -->
+        <label>Quais sacramentos possui:</label>
+        <input type="checkbox" id="batismo" name="entry.1122334455" value="Batismo">
+        <label for="batismo">Batismo</label>
+        
+        <input type="checkbox" id="comunhao" name="entry.1122334455" value="Primeira Comunhão">
+        <label for="comunhao">Primeira Comunhão</label>
+        
+        <input type="checkbox" id="crisma" name="entry.1122334455" value="Crisma">
+        <label for="crisma">Crisma</label>
+
+        <!-- Igreja que Frequenta -->
+        <label for="igreja">Qual paróquia, capela ou igreja frequenta?</label>
+        <input type="text" id="igreja" name="entry.2233445566" placeholder="Digite o nome da igreja" required>
+
+        <!-- Escola -->
+        <label for="escola">Estuda? Qual escola?</label>
+        <input type="text" id="escola" name="entry.3344556677" placeholder="Digite o nome da escola">
+
+        <!-- Relacionamentos -->
+        <label for="relAmigos">Como é seu relacionamento com os amigos?</label>
+        <textarea id="relAmigos" name="entry.4455667788" rows="3" placeholder="Descreva seu relacionamento com os amigos" required></textarea>
+
+        <label for="relFamilia">Como é seu relacionamento com a família?</label>
+        <textarea id="relFamilia" name="entry.5566778899" rows="3" placeholder="Descreva seu relacionamento com a família" required></textarea>
+
+        <!-- Problemas Familiares -->
+        <label for="problemaFamiliar">Tem algum problema familiar?</label>
+        <textarea id="problemaFamiliar" name="entry.6677889900" rows="3" placeholder="Descreva se houver algum problema familiar"></textarea>
+
+        <!-- Comportamento -->
+        <label for="comportamento">Como é seu comportamento / personalidade?</label>
+        <textarea id="comportamento" name="entry.7788990011" rows="3" placeholder="Descreva seu comportamento ou personalidade"></textarea>
+
+        <!-- Saúde -->
+        <label for="tratamentoMedico">Faz algum tratamento médico?</label>
+        <textarea id="tratamentoMedico" name="entry.8899001122" rows="3" placeholder="Descreva se faz algum tratamento médico"></textarea>
+
+        <label for="alergias">É alérgico? Se sim, quais?</label>
+        <textarea id="alergias" name="entry.9900112233" rows="3" placeholder="Descreva possíveis alergias"></textarea>
+
+        <label for="doencaFobia">Alguma doença ou fobia?</label>
+        <textarea id="doencaFobia" name="entry.1011122334" rows="3" placeholder="Descreva se houver"></textarea>
+
+        <!-- Informações Adicionais -->
+        <label for="conheceuEncontro">Como conheceu o encontro?</label>
+        <textarea id="conheceuEncontro" name="entry.1122334455" rows="2" placeholder="Descreva como conheceu o encontro"></textarea>
+
+        <label for="motivacao">Por que deseja fazer o EJC?</label>
+        <textarea id="motivacao" name="entry.2233445566" rows="3" placeholder="Explique sua motivação"></textarea>
+
+        <label for="algoMais">Algo mais que deseja nos contar?</label>
+        <textarea id="algoMais" name="entry.3344556677" rows="3" placeholder="Se houver algo mais, escreva aqui"></textarea>
+
+        <button type="submit">Enviar Inscrição</button>
+      </form>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>Desenvolvido por <strong>Cleiton Keliton da Silva Valdevino</strong>  | © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
